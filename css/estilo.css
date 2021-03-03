@@ -3,9 +3,9 @@
 }
 
 body {
-    min-height: 100vh;
     font-family: 'Roboto Mono', monospace;
-    background-image: ;
+    background-image: url(img/morning.jpg);
+    background-repeat: no-repeat;
     color: #e8dbff;
 }
 
@@ -22,8 +22,8 @@ h2 {
 }
 
 .container {
-    width: 800px;
-    height: 800px;
+    width: 860px;
+    height: 520px;
     position: absolute;
     left: 50%;
     top: 50%;
