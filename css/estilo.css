@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    background-image: ;
+    color: #e8dbff;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #201b36;
+}
+
+.input-titulo {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.transform-btn {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Roboto Mono', monospace;
+}
