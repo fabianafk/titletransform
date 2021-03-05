@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Title Transform</title>
 </head>
 
@@ -16,16 +16,22 @@
             <h1>Minimizador de títulos</h1>
         </header>
     
-        <h2>Insira o título em letras capitais abaixo</h2>
+        <div class="box" id="input-box">
+            <h2>Insira o título em letras capitais abaixo</h2>
     
-        <input class="input-titulo" type="text" placeholder="COLE O TÍTULO AQUI">
+            <input class="input-titulo" type="text" placeholder="COLE O TÍTULO AQUI">
+    
+            <button class="action-btn" id="transform-btn">Transformar</button>
+        </div>
+        
+        <div class="box" id="result-box"> 
+            <h2>Este é o título em letras minúsculas</h2>
+    
+            <div class="resultado">
+                <p>Título</p>
+            </div>
 
-        <button class="transform-btn">Transformar</button>
-    
-        <h2>Este é o título em letras minúsculas</h2>
-    
-        <div class="resultado">
-            <p>Título</p>
+            <button class="action-btn" id="copy-btn">COPIAR</button>
         </div>
     </div>
     

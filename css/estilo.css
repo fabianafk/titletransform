@@ -4,68 +4,79 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
+    color: #dce9df;
     background-image: url(img/morning.jpg);
     background-repeat: no-repeat;
-    color: #dce9df;
-}
-
-header {
-    margin-top: 30px;
-    text-align: center;
 }
 
 h1 {
     font-size: 50px;
+    font-weight: 400;
 }
 
 h2 {
-    margin-top: 65px;
-    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .container {
-    width: 860px;
-    height: 520px;
+    width: 670px;
+    height: 395px;
     position: absolute;
+    padding: 80px 100px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
     background-color: #0e274d;
     border-radius: 20px;
     box-shadow: -10px 13px #008080;
 }
 
+    .box {
+        margin-top: 65px;
+    }
+
 .input-titulo {
     width: 450px;
     height: 30px;
-    position: relative;
-    margin-left: 130px;
     margin-top: 20px;
+    padding: 5px 10px;
     font-family: 'Roboto Mono', monospace;
-    background-color: #d2d8d6;
+    font-size: 15px;
+    color: #2b3f3f;
+    background-color: #cdd8d4;
     border: none;
-    padding: 5px;
-}
-
-.transform-btn {
-    width: 106px;
-    height: 35px;
-    position: relative;
-    font-family: 'Roboto Mono', monospace;
 
 }
 
 .resultado {
-    width: 570px;
+    width: 450px;
     height: 30px;
-    position: relative;
-    margin-left: 130px;
+    padding: 5px 15px;
+    display: inline-block;
     margin-top: 20px;
-    font-family: 'Roboto Mono', monospace;
-    background-color: #d2d8d6;
-    padding: 5px;
+    padding: 5px 10px;
+    background-color: #cdd8d4;
 }
 
 .resultado p {
-    color: #353a3a;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    color: #364949;
+    text-align: left;
+    line-height: 30px;
+}
+
+.action-btn {
+    width: 115px;
+    height: 40px;
+    padding: 8px 8px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #008080;
+    border: none;
+    color: #cdd8d4;
 }
