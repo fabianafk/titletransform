@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>Title Transform</title>
+    <title>Transformador de títulos</title>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>Minimizador de títulos</h1>
+            <h1>Transformador de títulos</h1>
         </header>
     
         <div class="box" id="input-box">
-            <h2>Insira o título em letras capitais abaixo</h2>
+            <h2>Insira o título que você quer transformar abaixo</h2>
     
             <input class="input-titulo" type="text" placeholder="COLE O TÍTULO AQUI">
     
-            <button class="action-btn" id="transform-btn">Transformar</button>
+            <button class="action-btn" id="min-btn">Minúsculas</button>
+            <button class="action-btn" id="mai-btn">Maiúsculas</button>
         </div>
         
         <div class="box" id="result-box"> 
-            <h2>Este é o título em letras minúsculas</h2>
+            <h2>Este é o título em letras <span class="result-title">minúsculas</span></h2>
     
-            <div class="resultado">
-                <p>Título</p>
+            <div class="result-box">
+                <p class="result-text">Aguardando...</p>
             </div>
 
             <button class="action-btn" id="copy-btn">COPIAR</button>

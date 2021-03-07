@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 400;
 }
 
@@ -20,10 +20,10 @@ h2 {
 }
 
 .container {
-    width: 670px;
+    width: 700px;
     height: 395px;
     position: absolute;
-    padding: 80px 100px;
+    padding: 70px 90px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -38,7 +38,7 @@ h2 {
     }
 
 .input-titulo {
-    width: 450px;
+    width: 420px;
     height: 30px;
     margin-top: 20px;
     padding: 5px 10px;
@@ -50,8 +50,8 @@ h2 {
 
 }
 
-.resultado {
-    width: 450px;
+.result-box {
+    width: 550px;
     height: 30px;
     padding: 5px 15px;
     display: inline-block;
@@ -60,7 +60,7 @@ h2 {
     background-color: #cdd8d4;
 }
 
-.resultado p {
+.result-text {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     font-weight: 700;
