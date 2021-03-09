@@ -16,12 +16,16 @@ var resultTitle = document.querySelector('.result-title')
 
 minuscula.addEventListener('click', () => {
     var resultLower = input.value.toLowerCase();
-    resultText.innerHTML = resultLower;
-    resultTitle.innerHTML = 'minúsculas';
+
+    function capitalize(str) {
+       return `${str[0].toUpperCase()}${str.substr(1)}`;
+    }
+
+    resultText.innerHTML = capitalize(resultLower);
+    resultTitle.innerHTML = 'minúsculas';  
 })
 
 maiuscula.addEventListener('click', () => {
-    var resultUpper = input.value.toUpperCase();
-    resultText.innerHTML = resultUpper;
-    resultTitle.innerHTML = 'maiúsculas';
+    resultText.innerHTML = input.value.toUpperCase();
+    resultTitle.innerHTML = 'maiúsculas'; 
 })
